@@ -1,5 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
 .MobileMenu {
-  position: fixed;
+  position: absolute;
   top: 0;
   background-color: #000000;
   left: 0;
