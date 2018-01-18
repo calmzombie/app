@@ -3,7 +3,9 @@ body {
   flex-direction: column;
 }
 
-
+.burger {
+  width: 600px;
+}
 
 
 .MobileMenu {
