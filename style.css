@@ -9,6 +9,14 @@ body {
   width: 600px;
 }
 
+@media screen and (max-width: 525px) {
+  .burger {
+  width: 300px;}
+  .bo {
+  width: 300px;
+  }
+  }
+
 
 .MobileMenu {
   position: absolute;
