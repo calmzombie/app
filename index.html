@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tw-16-emoji.css">
     <link rel="manifest" href="manifest.json">
-    <title>App</title>
+    <title>Eat in Paris</title>
     <meta name="theme-color" content="#F1C40F">
   </head>
-  <div class="containermenu">
+  <div class="containermenu" id="menu">
     <ul class="menu-list">
       <li class="item" id="title">Menu</li>
       <li class="item"><a href="#"><span class="tw tw-camera_with_flash"></span>Photographier un plat</a></li>
@@ -27,7 +27,6 @@
   <nav class="MobileMenu">
   <img src="menu-ham.png" id="menuham">
   <h1>Eat in Paris</h1>
-<label for="checkbox" class="MobileMenu-btnContainer"><div class="MobileMenu-btn"></div></label>
   </nav>
 </header>
   <body>
@@ -43,5 +42,12 @@
 
   </div>
   <script src="app.js"></script>
+  <script>
+        function burgerclick() {
+          $('#menuham').on('click',function(){
+            $('.containermenu').css('opacity','0.5');
+          });
+          };
+      </script>
   </body>
 </html>
