@@ -2,11 +2,32 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 2em;
+  font-family: sans-serif;
+  background-color: #f4f3f4;
+}
 
+h1 {
+  color: red;
+}
+
+.accroche {
+  background-color: white;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 .burger {
   width: 600px;
+}
+
+.div-burger{
+  background-color: white;
+  width: 100%;
+}
+
+.div-bo {
+  margin-top: 1em;
+  background-color: white;
 }
 
 @media screen and (max-width: 525px) {
@@ -14,6 +35,9 @@ body {
   width: 300px;}
   .bo {
   width: 300px;
+  }
+  p {
+    font-size: 13px;
   }
   }
 
@@ -25,6 +49,9 @@ body {
   left: 0;
   right: 0;
   height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .MobileMenu-btnContainer {
   left: 15px;
