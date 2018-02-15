@@ -14,3 +14,7 @@ if('serviceWorker' in navigator) {
 $("#menuham").click(function(){
   $("#burgermenu").fadeIn("slow");
 });
+
+$("section").click(function(){
+  $("#burgermenu").fadeOut("slow");
+});
