@@ -10,3 +10,7 @@ if('serviceWorker' in navigator) {
     console.log(error);
   }
 }
+
+$("#menuham").click(function(){
+  $("#burgermenu").fadeIn("slow");
+});

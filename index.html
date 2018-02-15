@@ -9,7 +9,7 @@
     <title>Eat in Paris</title>
     <meta name="theme-color" content="#F1C40F">
   </head>
-  <div class="containermenu" id="menu">
+  <div class="containermenu" id="burgermenu">
     <ul class="menu-list">
       <li class="item" id="title">Menu</li>
       <li class="item"><a href="#"><span class="tw tw-camera_with_flash"></span>Photographier un plat</a></li>
@@ -22,14 +22,14 @@
       <li class="item"><a href="#"><span class="tw tw-runner"></span>Manger rapidement</a></li>
       <li class="item"><a href="#"><span class="tw tw-sparkles"></span>Nouveau</a></li>
     </ul>
-    </div>
+  </div>
 <header>
   <nav class="MobileMenu">
   <img src="menu-ham.png" id="menuham">
   <h1>Eat in Paris</h1>
   </nav>
 </header>
-  <body>
+  <body class="bodypage">
   <div class="accroche"><p>Here you will find the top restaurants in Paris.</p></div>
   <div class="div-burger"><h3>Nouveau Burger !</h3>
     <img src="burger.jpg" class="burger">
@@ -41,14 +41,8 @@
   </div>
 
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script src="app.js"></script>
   <script src="service-worker.js"></script>
-  <script>
-        function burgerclick() {
-          $('#menuham').on('click',function(){
-            $('.containermenu').css('opacity','0.5');
-          });
-          };
-      </script>
   </body>
 </html>
